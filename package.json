@@ -1,5 +1,5 @@
 {
-  "name": "to-view-list-amand33p",
+  "name": "Online Source Saver",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon index.js",
     "build:ui": "rm -rf build && cd ../client && rm -rf build && npm run build --prod && cp -r build ../server"
   },
-  "author": "Amandeep S.",
+  "author": "ezhil",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
