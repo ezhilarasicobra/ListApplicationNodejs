@@ -3,7 +3,7 @@ const { MONGODB_URI: url } = require('./utils/config');
 
 const connectToDB = async () => {
   try {
-    await mongoose.connect(Mongo_URL, {
+    await mongoose.connect("mongodb+srv://ezhil:ezhil@cluster0.pb8jx.mongodb.net/listapplication?retryWrites=true&w=majority", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
